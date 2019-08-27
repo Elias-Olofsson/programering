@@ -1,0 +1,40 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    Console.WriteLine("Skriv hej och två tal eller goddag och ditt för och efternamn.");
+
+
+    string program = Console.ReadLine();
+    if(program == "hej"){
+    string första = Console.ReadLine();
+    int tal1 = int.Parse(första);
+
+    string andra = Console.ReadLine();
+    int tal2 =int.Parse(andra);
+
+    Console.Write("Första plus andra är: ");
+    Console.Write(tal1+tal2);
+    Console.WriteLine(".");
+    Console.Write("Första minus andra är: ");
+    Console.Write(tal1-tal2);
+    Console.Write(".");
+    }
+    else if(program == "goddag"){
+      string namn1 = Console.ReadLine();
+      string namn2 = Console.ReadLine();
+
+      Console.Write("Tillsamans är ditt namn: ");
+      Console.Write(namn1+" "+namn2);
+      Console.Write(".");
+
+
+
+
+
+
+    }
+    
+
+  }
+}
