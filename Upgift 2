@@ -1,0 +1,21 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    Console.WriteLine("Är det fint väder?");
+
+    string stringinput = Console.ReadLine();
+    if (stringinput == "j" || stringinput == "J")
+    {
+      Console.WriteLine("Vi går på picknick!");
+    }
+    else if (stringinput == "n" || stringinput == "N")
+    {
+      Console.WriteLine("Vi stannar inne och läser en bok");
+    }
+    else 
+    {
+    Console.WriteLine("Jag förstår inte");
+    }
+  }
+}
